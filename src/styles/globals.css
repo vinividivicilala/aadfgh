@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Kaisei+Tokumin&display=swap');
+
+body {
+  font-family: 'Kaisei Tokumin', sans-serif;
+}
+
+h1 {
+  font-family: 'Kaisei Tokumin', 'sans-serif';
+}
+.mdx-heading {
+  font-weight: 700;
+  font-size: x-large;
+}
+.mdx-sub-heading {
+  font-weight: 600;
+  font-size: large;
+}
+.mdx-bullet-list {
+  margin-left: 25px;
+  list-style-type: circle;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
